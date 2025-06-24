@@ -1,31 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
 
 #root-container {
+  margin: auto;
   display: flex;
+  text-align: center;
   align-items: center;
-  height: 40%;
-  max-height: 40%;
-  width: 400px;
-  /*transform: scale(1.2); increase size of everything in container*/
+  padding: 12.5em 0;
+  width: 25em;
+  transform: scale(1.5);
+  border: 1px solid black;
 }
 
 #title-and-description {
   flex-wrap: wrap;
-  width: 200px;
+  width: 12.5em;
 }
 
 #description {
   font-family: "Montserrat";
-  font-size: 25px;
-  margin-top: 0px;
-  margin-left: 10px;
+  font-size: 1.2500em;
+  margin-top: 0em;
 }
 
 #title {
   font-family: "Montserrat", cursive;
-  font-size: 48px;
-  margin-top: 18px;
-  margin-bottom: 0px;
+  font-size: 2.625em;
+  margin-top: 0em;
+  margin-bottom: 0em;
   background: linear-gradient(45deg, red, orange, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -47,7 +48,15 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  #root-container {
+  margin: auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 12.5em 0;
+  width: 100vw;
+  transform: scale(.8);
+  }
 
-#roastume-icon {
-  transform: scale(1.2);
 }
