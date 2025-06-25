@@ -1,5 +1,5 @@
 const GoButton = () => (
-    <button>Go</button>
+    <button id="go-button">Go</button>
 )
 
 export default GoButton;

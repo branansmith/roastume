@@ -1,8 +1,7 @@
 import ResumeIcon from './components/ResumeIcon';
-import RoastumeIcon from './components/RoastumeIcon';
-import Description from './components/Description';
 import UploadButton from './components/UploadButton';
 import GoButton from './components/GoButton';
+import Pitch from './components/Pitch';
 
 import './App.css';
 
@@ -12,16 +11,14 @@ function App() {
     <>
       <div id="root-container">
         <ResumeIcon />
-        <div id="title-and-description">
-          <RoastumeIcon />
-          <Description />
-        </div>
         <div id="upload-and-go-buttons">
           <UploadButton />
           <GoButton />
         </div>
+        
 
       </div>
+      <Pitch/>
     </>
   )
 }
