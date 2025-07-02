@@ -1,13 +1,19 @@
+import { Typewriter } from 'react-simple-typewriter'
+import Roastlet from './Roastlet'
+
 const ResumeRoastPage = () => (
-    <p>hi</p>
+    <>
+    <p id="roast-page-title">Hello, Branan. Let's take a look at your resume...</p>
+    <div id="roast-page-container">
+    <Roastlet title="Created an excel spreadsheet that is used daily by management and employees." roast="Where’s the blood? The sweat? The 2AM panic over formulas? Sounds like you made a glorified calculator and called it legacy."/>
+    <Roastlet title="Assisted customers with inquiries and resolved issues to ensure satisfaction." roast="“Resolved issues”? You handed Karen a refund and called it heroism. You didn’t assist customers — you survived them. Barely. And for what? Eleven bucks an hour?"/>
+    <Roastlet title="Assisted customers with inquiries and resolved issues to ensure satisfaction." roast="“Resolved issues”? You handed Karen a refund and called it heroism. You didn’t assist customers — you survived them. Barely. And for what? Eleven bucks an hour?"/>
+    <Roastlet title="Assisted customers with inquiries and resolved issues to ensure satisfaction." roast="“Resolved issues”? You handed Karen a refund and called it heroism. You didn’t assist customers — you survived them. Barely. And for what? Eleven bucks an hour?"/>
+    <Roastlet title="Assisted customers with inquiries and resolved issues to ensure satisfaction." roast="“Resolved issues”? You handed Karen a refund and called it heroism. You didn’t assist customers — you survived them. Barely. And for what? Eleven bucks an hour?"/>
+    <Roastlet title="Assisted customers with inquiries and resolved issues to ensure satisfaction." roast="“Resolved issues”? You handed Karen a refund and called it heroism. You didn’t assist customers — you survived them. Barely. And for what? Eleven bucks an hour?"/>
+    </div>
+    </>
 )
 
-
-//what if I make it the most innocent looking website
-//and then when someone hits the "go" button it jus
-//turns into this crazy website
-//WELCOME TO THE RESUME ROASTER 9000
-//4 million animations
-//spit out the results
 
 export default ResumeRoastPage;

@@ -1,4 +1,5 @@
 import logo from '../images/roastume.png'
+import {Link} from 'react-router-dom'
 
 const HomePage = () => (
     <>
@@ -8,7 +9,7 @@ const HomePage = () => (
             <div id="upload-and-go-buttons">
                 <label for="file-upload"></label> 
                 <input type="file" id="file-upload" accept=".pdf, .doc, .docx" />
-                <button id="go-button">Go</button>
+                <Link to="/results"><button id="go-button">Go</button></Link>
             </div>
 
 
@@ -22,5 +23,4 @@ const HomePage = () => (
 )
 // prevent users from making very large files using maxSize property or something
 //if someone decides to submit an entire book to this client it will be extremely expensive
-
 export default HomePage;

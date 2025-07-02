@@ -16,6 +16,10 @@ p {
   width: 18.5em;
 }
 
+#roastume-logo {
+  transform: scale(1.2);
+}
+
 #root-container {
   margin: auto;
   margin-top: 9.375em;
@@ -50,29 +54,81 @@ p {
   width: 38em;
 }
 
+#roast-page-title {
+  align-items: center;
+  text-align: center;
+}
+
+#roastlet-title {
+  font-size: 1.563em;
+  padding-left: 1.25em;
+  display: flex;
+  align-items: center;
+  width: 25em;
+  height: 9.5em;
+  background-color: white;
+  color: black;
+  font-family:'Times New Roman', Times, serif;
+  margin-right: 1.25em;
+}
+
+#roastlet-description {
+  display: flex;
+  align-items: center;
+  font-size: 1.188em;
+  margin-right: 1.25em;
+  width: 25em;
+  height: 12.5em;
+}
+
+#roastlet-container {
+  display: flex;
+  width: 56.25em;
+  height: 30vh;
+  align-items: center;
+  transform: scale(.8);
+  border: 1px solid white;
+}
+
+#roast-page-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1710px;
+  height: 100vh;
+  max-height: 100vh;
+  border: 1px solid white;
+}
+
+
+
 @media only screen and (max-width: 600px) {
   * {
     font-family: 'Montserrat';
   }
+
+  #roastume-logo {
+    transform: scale(1.2);
+  }
   
   p {
     font-size: 1em;
-    margin-left: 2em;
+    margin-left: 1em;
 
   }
   
   #title {
-    font-size: 1.2em;
+    font-size: 1.4em;
+    text-wrap: wrap;
     font-weight: bold;
     margin: auto;
     text-align: center;
     margin-top: 1.3em;
-    width: 19em;
+    width: 14em;
   }
   
   #root-container {
     margin: auto;
-    margin-top: 3em;
+    margin-top: 2.5em;
     display: flex;
     text-align: center;
     align-items: center;
@@ -101,7 +157,7 @@ p {
     margin: auto;
     margin-top: 3em;
     align-items: center;
-    width: 26em;
+    width: 25em;
   }
 
 }
