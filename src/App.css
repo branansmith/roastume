@@ -50,8 +50,7 @@ p {
 #pitch {
   margin: auto;
   margin-top: 12.5em;
-  align-items: center;
-  width: 38em;
+  width: 42em;
 }
 
 #roast-page-title {
@@ -59,44 +58,73 @@ p {
   text-align: center;
 }
 
-#roastlet-title {
-  font-size: 1.563em;
-  padding-left: 1.25em;
-  display: flex;
-  align-items: center;
-  width: 25em;
-  height: 9.5em;
-  background-color: white;
-  color: black;
+.resume {
   font-family:'Times New Roman', Times, serif;
-  margin-right: 1.25em;
 }
 
-#roastlet-description {
-  display: flex;
-  align-items: center;
-  font-size: 1.188em;
-  margin-right: 1.25em;
-  width: 25em;
-  height: 12.5em;
+#header-container {
+  text-align: center;
+  font-size: 21px;
 }
 
-#roastlet-container {
+#header-container h1,
+#header-container p {
+  margin: 0;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+#skills-container ul {
   display: flex;
-  width: 56.25em;
-  height: 30vh;
-  align-items: center;
-  transform: scale(.8);
+  flex-wrap: wrap;
+}
+
+#skills-container li {
+  margin-left: 30px;
+  padding-top: 10px;
+}
+
+.section {
+  margin-left: 35px;
+  border-bottom: 1px solid white;
+  margin-right: 35px;
+  font-family:'Times New Roman', Times, serif;
+  margin-top: 30px;
+}
+
+#linkedin {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+#experience-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+
+
+#resume-roasts-container {
+  width: 700px;
+  height: 990px;
+  border: 1px solid white;
+  margin-left: 80px;
+  margin-right: 30px;
+}
+
+#copied-resume-container {
+  margin-left: 30px;
+  min-width: 765px;
+  min-height: 990px;
   border: 1px solid white;
 }
 
 #roast-page-container {
   display: flex;
-  flex-wrap: wrap;
-  width: 1710px;
-  height: 100vh;
-  max-height: 100vh;
-  border: 1px solid white;
+
 }
 
 
