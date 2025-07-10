@@ -85,6 +85,10 @@ p {
   padding-top: 10px;
 }
 
+#skills-list {
+  margin-right: 35px;
+}
+
 .section {
   margin-left: 35px;
   border-bottom: 1px solid white;
@@ -95,7 +99,7 @@ p {
 
 #linkedin {
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 0;
 }
 
 #experience-title-container {
@@ -103,6 +107,22 @@ p {
   justify-content: space-between;
   margin-left: 35px;
   margin-right: 35px;
+  line-height: 0;
+}
+
+#experience-bullets {
+  line-height: 1.5;
+  margin-left: 15px;
+  margin-right: 35px;
+}
+
+#experience-company {
+  font-size: 20px;
+
+}
+
+#experience-date {
+  font-size: 20px;
 }
 
 
